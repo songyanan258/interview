@@ -5,8 +5,5 @@ package com.tangcco.interview;
  */
 
 public class test_01 {
-/*
-* 马浩然说？？？？？？？
-* */
 
 }
