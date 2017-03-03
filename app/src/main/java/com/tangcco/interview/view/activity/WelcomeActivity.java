@@ -25,6 +25,9 @@ public class WelcomeActivity extends BaseActivity {
 
     @Override
     protected void initData() {
+        /**
+         * 向主持人发送消息
+         * */
         presenter.getHandler().sendEmptyMessage(WelcomePresenter.TOMAINACTIVITY);
     }
 

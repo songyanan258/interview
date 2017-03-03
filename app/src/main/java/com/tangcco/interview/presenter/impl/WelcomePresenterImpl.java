@@ -17,7 +17,9 @@ public class WelcomePresenterImpl implements WelcomePresenter {
         public void handleMessage(Message msg) {
             switch (msg.what){
                 case WelcomePresenter.TOMAINACTIVITY:
-
+                /**
+                 * 具体的实现
+                 * */
             }
         }
     };
