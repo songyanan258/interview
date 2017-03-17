@@ -5,6 +5,8 @@ import android.os.Bundle;
 
 import com.tangcco.interview.base.system.TaskManager;
 
+import butterknife.ButterKnife;
+
 
 /**
  * Created by ThinkPad on 2017/3/1.
@@ -15,6 +17,7 @@ public abstract class BaseActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ButterKnife.bind(this);
         initView();
         initData();
         initListener();
