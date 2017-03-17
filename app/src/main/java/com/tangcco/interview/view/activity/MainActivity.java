@@ -17,6 +17,7 @@ public class MainActivity extends BaseActivity {
         mToolbar.setTitle("这里是标题");
         //mToolbar.setSubtitle("这里是子标题");
         mToolbar.setLogo(R.mipmap.ic_menu_black_36dp);
+
     }
 
     @Override
