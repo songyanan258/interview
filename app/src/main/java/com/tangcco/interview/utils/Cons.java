@@ -5,4 +5,6 @@ package com.tangcco.interview.utils;
  */
 
 public class Cons {
+    //是否关闭菜单
+    public static  boolean isClose = false;
 }

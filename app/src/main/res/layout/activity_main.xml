@@ -1,78 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main2"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.tangcco.interview.view.activity.MainActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:background="@color/primary"
-        android:layout_height="@dimen/toolbar_height"  />
-    
-    <LinearLayout
-        android:gravity="center"
-        android:layout_alignParentBottom="true"
         android:background="@color/primary"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/bottombar_height">
-
-        <LinearLayout
-            android:gravity="center"
-            android:orientation="vertical"
-            android:layout_weight="2"
-            android:layout_width="@dimen/icon_size"
-            android:layout_height="@dimen/icon_size">
-
-            <ImageView
-                android:src="@mipmap/ic_school_black_24dp"
-                android:layout_width="24dp"
-                android:layout_height="24dp"/>
-            <TextView
-                android:textColor="@color/icons"
-                android:textSize="12sp"
-                android:text="题库"
-                android:layout_width="24dp"
-                android:layout_height="wrap_content"/>
-        </LinearLayout>
-        <LinearLayout
-            android:gravity="center"
-            android:orientation="vertical"
-            android:layout_weight="1"
-            android:layout_width="@dimen/icon_size"
-            android:layout_height="@dimen/icon_size">
-
-            <ImageView
-                android:src="@mipmap/ic_insert_drive_file_black_24dp"
-                android:layout_width="24dp"
-                android:layout_height="24dp"/>
-            <TextView
-                android:textColor="@color/icons"
-                android:textSize="12sp"
-                android:text="练习"
-                android:layout_width="24dp"
-                android:layout_height="wrap_content"/>
-        </LinearLayout>
-        <LinearLayout
-            android:gravity="center"
-            android:orientation="vertical"
-            android:layout_weight="2"
-            android:layout_width="@dimen/icon_size"
-            android:layout_height="@dimen/icon_size">
-            <ImageView
-                android:src="@mipmap/ic_cloud_upload_black_24dp"
-                android:layout_width="24dp"
-                android:layout_height="24dp"/>
-            <TextView
-                android:textColor="@color/icons"
-                android:textSize="12sp"
-                android:text="上传"
-                android:layout_width="24dp"
-                android:layout_height="wrap_content"/>
-        </LinearLayout>
-    </LinearLayout>
-
-</RelativeLayout>
+        android:layout_height="56dp">
+    </android.support.v7.widget.Toolbar>
+    <include layout="@layout/custom_drawlayout"/>
+</LinearLayout>

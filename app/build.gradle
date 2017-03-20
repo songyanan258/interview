@@ -35,4 +35,5 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
     compile files('libs/adapter-rxjava2-2.2.0.jar')
     compile 'com.android.support:design:25.1.0'//添加MeterialDesign库依赖
+    compile 'de.hdodenhof:circleimageview:2.1.0'//圆形头像
 }
