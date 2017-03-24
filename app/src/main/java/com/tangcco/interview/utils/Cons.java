@@ -15,6 +15,8 @@ public class Cons {
     public static final String CHANGE_PASSWORD="password";
     //跳转类型
     public static final String CHANGE_TYPE="change";
+    //储存在sharePreference中的“头”
+    public static final String USER_HEAD="user_detail";
 
 
 }
