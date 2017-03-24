@@ -182,7 +182,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.draw_check_detail:
                 intent.setClass(this,UserDetailActivity.class);
                 startActivity(intent);
-                Util.mToast(this,"跳转到用户信息");
                 break;
 
             //用户邮箱

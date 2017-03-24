@@ -103,6 +103,7 @@
 
     </RelativeLayout>
     <LinearLayout
+        android:gravity="center_horizontal"
         android:orientation="vertical"
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp"
@@ -264,9 +265,18 @@
             </LinearLayout>
         </RelativeLayout>
 
-
+        <Button
+            android:id="@+id/btn_concal"
+            android:textColor="@color/third_WeiBo"
+            android:textSize="@dimen/txt_subhead"
+            android:text="退出当前账号"
+            android:background="@drawable/button_cancel_select"
+            android:layout_marginTop="24dp"
+            android:layout_width="168dp"
+            android:layout_height="48dp"/>
     </LinearLayout>
     <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userdetail_circle_head"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:layout_below="@id/toolbar_detail"

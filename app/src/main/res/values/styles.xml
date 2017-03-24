@@ -6,14 +6,15 @@
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <!--Toolbar颜色-->
         <item name="colorPrimary">@color/primary</item>
+        <!--下划线颜色-->
+        <item name="colorControlActivated">@color/primary</item>
+        <item name="colorControlHighlight">@color/primary</item>
         <!--返回键样式-->
         <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
         <!--菜单背景色-->
         <item name="android:itemBackground">@android:color/white</item>
         <!-- 设置Menu菜单的字体颜色 -->
         <item name="android:textColorPrimary">@android:color/black</item>
-
-
     </style>
     <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
         <item name="color">@android:color/white</item>
